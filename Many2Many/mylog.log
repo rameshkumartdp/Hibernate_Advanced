@@ -1,0 +1,61 @@
+09:11:24,269  INFO Version:15 - Hibernate Annotations 3.2.0.GA
+09:11:24,282  INFO Environment:500 - Hibernate 3.2.0
+09:11:24,284  INFO Environment:533 - hibernate.properties not found
+09:11:24,286  INFO Environment:667 - Bytecode provider name : cglib
+09:11:24,288  INFO Environment:584 - using JDK 1.4 java.sql.Timestamp handling
+09:11:24,324  INFO Configuration:1350 - configuring from resource: /hibernate.cfg.xml
+09:11:24,325  INFO Configuration:1327 - Configuration resource: /hibernate.cfg.xml
+09:11:24,398  INFO Configuration:1465 - Configured SessionFactory: null
+09:11:24,431  INFO AnnotationBinder:387 - Binding entity from annotated class: Stock
+09:11:24,449  INFO EntityBinder:340 - Bind entity Stock on table hibernate_stock
+09:11:24,488  INFO AnnotationBinder:387 - Binding entity from annotated class: Category
+09:11:24,490  INFO EntityBinder:340 - Bind entity Category on table hibernate_category
+09:11:24,542  INFO DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+09:11:24,543  INFO DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+09:11:24,544  INFO DriverManagerConnectionProvider:45 - autocommit mode: false
+09:11:24,549  INFO DriverManagerConnectionProvider:80 - using driver: oracle.jdbc.driver.OracleDriver at URL: jdbc:oracle:thin:@192.168.0.22:1521:dev1
+09:11:24,550  INFO DriverManagerConnectionProvider:86 - connection properties: {user=tcc, password=****}
+09:11:25,061  INFO SettingsFactory:81 - RDBMS: Oracle, version: Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - Production
+With the Partitioning, OLAP and Data Mining options
+09:11:25,064  INFO SettingsFactory:82 - JDBC driver: Oracle JDBC driver, version: 10.1.0.5.0
+09:11:25,089  INFO Dialect:141 - Using dialect: org.hibernate.dialect.OracleDialect
+09:11:25,096  INFO TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+09:11:25,098  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+09:11:25,100  INFO SettingsFactory:134 - Automatic flush during beforeCompletion(): disabled
+09:11:25,101  INFO SettingsFactory:138 - Automatic session close at end of transaction: disabled
+09:11:25,103  INFO SettingsFactory:145 - JDBC batch size: 15
+09:11:25,107  INFO SettingsFactory:148 - JDBC batch updates for versioned data: disabled
+09:11:25,109  INFO SettingsFactory:153 - Scrollable result sets: enabled
+09:11:25,110  INFO SettingsFactory:161 - JDBC3 getGeneratedKeys(): disabled
+09:11:25,111  INFO SettingsFactory:169 - Connection release mode: auto
+09:11:25,113  INFO SettingsFactory:196 - Default batch fetch size: 1
+09:11:25,114  INFO SettingsFactory:200 - Generate SQL with comments: disabled
+09:11:25,115  INFO SettingsFactory:204 - Order SQL updates by primary key: disabled
+09:11:25,116  INFO SettingsFactory:369 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+09:11:25,118  INFO ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+09:11:25,119  INFO SettingsFactory:212 - Query language substitutions: {}
+09:11:25,120  INFO SettingsFactory:217 - JPA-QL strict compliance: disabled
+09:11:25,121  INFO SettingsFactory:222 - Second-level cache: enabled
+09:11:25,122  INFO SettingsFactory:226 - Query cache: disabled
+09:11:25,123  INFO SettingsFactory:356 - Cache provider: org.hibernate.cache.NoCacheProvider
+09:11:25,124  INFO SettingsFactory:241 - Optimize cache for minimal puts: disabled
+09:11:25,126  INFO SettingsFactory:250 - Structured second-level cache entries: disabled
+09:11:25,130  INFO SettingsFactory:270 - Echoing all SQL to stdout
+09:11:25,130  INFO SettingsFactory:277 - Statistics: disabled
+09:11:25,131  INFO SettingsFactory:281 - Deleted entity synthetic identifier rollback: disabled
+09:11:25,133  INFO SettingsFactory:296 - Default entity-mode: pojo
+09:11:25,149  INFO SessionFactoryImpl:161 - building session factory
+09:11:25,278  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+09:11:25,493 DEBUG StringType:80 - binding '7052' to parameter: 1
+09:11:25,494 DEBUG StringType:80 - binding 'PADINI' to parameter: 2
+09:11:25,496 DEBUG IntegerType:80 - binding '3' to parameter: 3
+09:11:25,522 DEBUG StringType:80 - binding 'INVESTMENT' to parameter: 1
+09:11:25,523 DEBUG StringType:80 - binding 'INVESTMENT COMPANY' to parameter: 2
+09:11:25,524 DEBUG IntegerType:80 - binding '5' to parameter: 3
+09:11:25,528 DEBUG StringType:80 - binding 'CONSUMER' to parameter: 1
+09:11:25,530 DEBUG StringType:80 - binding 'CONSUMER COMPANY' to parameter: 2
+09:11:25,531 DEBUG IntegerType:80 - binding '6' to parameter: 3
+09:11:25,555 DEBUG IntegerType:80 - binding '3' to parameter: 1
+09:11:25,556 DEBUG IntegerType:80 - binding '5' to parameter: 2
+09:11:25,559 DEBUG IntegerType:80 - binding '3' to parameter: 1
+09:11:25,560 DEBUG IntegerType:80 - binding '6' to parameter: 2

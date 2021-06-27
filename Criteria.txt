@@ -1,0 +1,49 @@
+Criteria c=ss.createCriteria(class);
+
+c.add(         )
+Restrictions.eq("origin","Mumbai"));
+
+Restrictions.ne("origin","Mumbai");
+
+Restrictions.like("name","name%");
+
+Restrictions.isNull("name");
+
+Restrictions.isNull("name");
+
+Restrictions.gt("price",new Double(10.20));
+
+Restrictions.like("name","tvm",MatchMode.END);
+Restrictions.like("name","tvm",MatchMode.ANYWHERE);
+
+Restrictions.like("name","tvm",MatchMode.EXACT
+Restrictions.like("name","tvm",MatchMode.START);
+
+
+setFirstResult(int)
+
+setMaxResult(int)
+
+Object o=c.uniqueResult()
+
+
+addOrder(Order.desc(price))
+
+
+
+Assosiation
+
+
+
+Criteria c=ss.createCriteria(Flight.class);
+	
+Criteria s=c.createCriteria("routes");
+s.add(Restrictions.eq("origin","Mumbai"));
+
+List list=c.list();
+
+
+
+
+
+

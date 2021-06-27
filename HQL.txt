@@ -1,0 +1,77 @@
+from entity
+
+select e.property from entity e
+
+query.setComment("string);
+
+OR AND NOT
+
+= < !=
+
+< > <= >= like
+
+all any exists
+
+:namedparameter
+
+
+upper() lower() lenght() trim()
+
+setFirstResult(int)
+
+setMaxResult(int)
+
+uniqueResult()
+
+order by e.property desc
+
+
+inner join
+
+
+select count(*) from entity
+
+distinct property
+
+
+avg
+
+count
+
+max
+
+min
+
+
+update entity set property =:named where name=:name
+
+executeUpdate()
+
+
+
+SQLQuery q=ss.createSQLQuery("select {route.*} from Route route");
+q.addEntity("route",Route.class);
+
+Query query = session.createSQLQuery(
+"select * from stock s where s.stock_code = :stockCode")
+.addEntity(Stock.class)
+.setParameter("stockCode", "7277");
+List result = query.list();
+
+
+
+
+@NamedQueries({
+	@NamedQuery(
+	name = "findStockByStockCode",
+	query = "from Stock s where s.stockCode = :stockCode"
+	)
+})
+
+@NamedNativeQueries({
+	@NamedNativeQuery(
+	name = "findStockByStockCodeNativeSQL",
+	query = "select * from stock s where s.stock_code = :stockCode",
+        resultClass = Stock.class
+	)
+})

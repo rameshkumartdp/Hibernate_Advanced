@@ -1,0 +1,36 @@
+
+Table 
+
+@Entity
+@Table(name = "PIZZA_USERS")
+
+Column Level:
+
+@Column(name = "PASSWORD")
+
+composite:
+
+	@EmbeddedId
+
+Sequence Defenition
+
+@SequenceGenerator(
+    name="SEQ_STORE",
+    sequenceName="TESTSEQ"
+)
+
+Seq Usage
+
+@Id @GeneratedValue(strategy=GenerationType.SEQUENCE, generator="SEQ_STORE")
+
+
+One to Many Master
+	@OneToMany(mappedBy="city",cascade = CascadeType.ALL)
+	@OrderBy("name")
+	@Basic(fetch = FetchType.LAZY)
+
+
+Many to One Child
+
+@ManyToOne
+    @JoinColumn(name="CITY_ID")
